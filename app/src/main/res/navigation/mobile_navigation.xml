@@ -5,13 +5,6 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/nav_home">
 
-
-    <fragment
-        android:id="@+id/nav_HomePage"
-        android:name="com.example.medguru.ui.homepage.HomePageFragment"
-        android:label="Home"
-        tools:layout="@layout/home_page_fragment" />
-
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.medguru.ui.Medicine.HomeFragment"
@@ -29,5 +22,11 @@
         android:name="com.example.medguru.ui.Surgical_Services.SlideshowFragment"
         android:label="Surgical Services"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_sanitary"
+        android:name="com.example.medguru.ui.sanitaryItems.SanitaryItems"
+        android:label="Sanitary Items"
+        tools:layout="@layout/fragment_sanitary_item" />
 
 </navigation>

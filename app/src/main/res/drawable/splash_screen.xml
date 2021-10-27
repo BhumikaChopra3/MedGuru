@@ -4,4 +4,9 @@
     <item
         android:drawable="@color/Green" />
 
+    <item>
+        <bitmap android:src="@drawable/logocutbetter"
+            android:gravity="center" />
+    </item>
+
 </layer-list>

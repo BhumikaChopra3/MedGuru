@@ -27,7 +27,7 @@ class FirstPage : AppCompatActivity() {
         setSupportActionBar(binding.appBarFirstPage.toolbar)
 
         binding.appBarFirstPage.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Guru is here to help you!", Snackbar.LENGTH_LONG)
+            Snackbar.make(view, "By : BYTE BITERS.", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
         val drawerLayout: DrawerLayout = binding.drawerLayout
@@ -37,7 +37,7 @@ class FirstPage : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_HomePage, R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.nav_sanitary
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
